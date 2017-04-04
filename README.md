@@ -1,4 +1,7 @@
 # Steganography
+
+*youtube link* - https://youtu.be/gY-V5t1hHh0
+
 Stecrypt is a GUI based application that performs steganography on image files. Stecypt takes as imput an image file and a message. Then it encrypts that message on the basis of a key provided by user and hides the encrypted message into image file using steganography techniques. Finally, it generates steganographic image containing hidden message.
 Stecrypt also allows user to extract the encrypted message, hidden in steganographic image. This encypted message can be decrypted if correct key is provided.
 
@@ -18,13 +21,13 @@ Encryption/Decryption Module
 Steganography module
 Requirements:
 
-Operating System:
+*Operating System:*
 Linux
 
-Programming Language:
+*Programming Language:*
 Python 2.7
 
-Modules:
+*Modules:*
 pycrypto
 Tkinter
 steganography
