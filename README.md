@@ -43,3 +43,4 @@ Installation Guide:
 pip install -r requirements.txt
 4. Run main.py, using:
 python main.py
+FOR gui Run front_gui.py (but we are still working on this!!)
