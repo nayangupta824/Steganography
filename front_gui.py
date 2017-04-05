@@ -7,12 +7,14 @@ from tkFileDialog import askopenfilename
 path_to_file = []
 
 def path():
+     del path_to_file[:]
      ifile = askopenfilename(filetypes=[("Image File",'.png'),("Image File", '.jpg')])
      path_to_file.append(ifile)
      print path_to_file
+     #print ifile
 
 def decode(e1, key):
-	message = Decode(path_to_file, key)
+	message = Decode(path_to_file[0], key)
 	e1.insert(0, message)
 
 def decrypt():
@@ -49,7 +51,7 @@ def encrypt():
          Label(root1, text="Enter the message :").grid(row=2)
          e1 = Entry(root1)
          e1.grid(row=2, column=1)
-         pbtn = Button(root1, text='Image Path', command=path)#lambda:(root1.tkFileDialog.askopenfilename(filetypes=[("Image File",'.png'),("Image File", '.jpg')]))
+         pbtn = Button(root1, text='Image Path', command=path)
          pbtn.grid(row=4, column=1, sticky=W, pady=4, padx=5)   
          print path_to_file      
          ibtn=Button(root1, text="Encode",command = lambda: Encode(path_to_file[0], "image/output2.jpg",e1.get(),e.get()))
