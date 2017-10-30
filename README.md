@@ -33,6 +33,7 @@ Tkinter
 steganography
 PIL (or Pillow)
 tkFileDialog
+Yo
 
 
 Installation Guide:
