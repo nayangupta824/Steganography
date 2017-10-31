@@ -34,6 +34,12 @@ steganography
 PIL (or Pillow)
 tkFileDialog
 
+## Contributors
+
+* Nayan Gupta
+* Akhilesh Kumar
+* Kumar Gaurav Pandey
+
 
 Installation Guide:
 
