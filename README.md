@@ -23,6 +23,7 @@ Requirements:
 
 *Operating System:*
 Linux
+yo
 
 *Programming Language:*
 Python 2.7
