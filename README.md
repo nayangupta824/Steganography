@@ -34,14 +34,7 @@ steganography
 PIL (or Pillow)
 tkFileDialog
 
-## Contributors
-
-* Nayan Gupta
-* Akhilesh Kumar
-* Kumar Gaurav Pandey
-
-
-Installation Guide:
+## Installation Guide:
 
 1. Download and extract .tar file.
 2. Goto extracted directory.
@@ -49,3 +42,10 @@ Installation Guide:
 pip install -r requirements.txt
 4. Run main.py, using:
 python main.py
+
+## Contributors
+
+* Nayan Gupta
+* Akhilesh Kumar
+* Kumar Gaurav Pandey
+
