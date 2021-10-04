@@ -38,7 +38,7 @@ tkFileDialog
 
 Installation Guide:
 
-1. Download and extract .tar file.
+1. Download and extract _.tar_ file.
 2. Goto extracted directory.
 3. Install requirements using:
 pip install -r requirements.txt
